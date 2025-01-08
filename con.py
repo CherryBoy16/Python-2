@@ -1,0 +1,9 @@
+a="TEST"
+c="start"
+b=a.lower()
+v=c.upper()
+print(b)
+print(v)
+n="Gracefull"
+m=n.strip()
+print(m)
