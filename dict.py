@@ -1,10 +1,4 @@
-student={
-    "Id":[12,21,43,62],
-    "Name":["Laila","Daaku","Vara","Veera"],
-    "Age":[19,18,20,19],
-    "Screen_time":[4,5,7,6],
-    "Homework_Completion_Rate": [90, 75, 85, 80],
-    "Study_Hours_Per_Week": [15, 10, 12, 8],
-}
-
-print(student)
+s = {i ** 2 for i in range(1,50)}
+d=[x**2 for x in range(1, 11)]
+print("Squares Dict:", s)
+print("Squares list:",d)
